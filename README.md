@@ -68,4 +68,4 @@ live web, retrieved fresh per question via the Tavily tool, per the
 internship's dataset policy of not relying on pre-supplied data.
 
 ## Deploying
-Live Demo: 
+Live Demo: https://algoapptask2-n4cp8uzhc9quprtfqrhrqk.streamlit.app/
