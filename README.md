@@ -45,9 +45,7 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Copy `.env.example` to `.env` and add your keys, **or** just paste them
-into the sidebar when the app is running (nothing is written to disk
-either way):
+Create `.env` and add your keys.
 
 - An OpenAI or Anthropic API key, matching the provider you pick in the sidebar
 - A [Tavily](https://tavily.com) API key (free tier is enough for this project)
@@ -70,19 +68,4 @@ live web, retrieved fresh per question via the Tavily tool, per the
 internship's dataset policy of not relying on pre-supplied data.
 
 ## Deploying
-
-Push this folder to a GitHub repo, then deploy for free on
-[Streamlit Community Cloud](https://share.streamlit.io) pointing at
-`app.py`. Add `OPENAI_API_KEY` / `ANTHROPIC_API_KEY` and `TAVILY_API_KEY`
-as app secrets rather than committing them.
-
-## Submission checklist (per handbook §2)
-
-- [ ] Push code to `AlgoHub_Task2_ReActAgent` repo with this README,
-      screenshots, and results
-- [ ] Zip as `AlgoHub_Task2_ReActAgent.zip`
-- [ ] Record a 5–10 min demo: overview → a live query → the Research
-      Log lighting up → the cited final answer
-- [ ] Deploy (Streamlit Cloud link) and add the live URL here
-- [ ] Post on LinkedIn tagging AlgoHub Software House, with the GitHub
-      link, demo video, and a screenshot
+Live Demo: 
